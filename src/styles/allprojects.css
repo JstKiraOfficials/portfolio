@@ -1,0 +1,106 @@
+/* =================== */
+/* All Projects Page   */
+/* =================== */
+
+.all-projects-page {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.all-projects-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.all-projects-page .theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  font-size: 1.15rem;
+  transition: all var(--transition);
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+}
+
+.all-projects-page .theme-toggle:hover {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+}
+
+.all-projects-header {
+  margin-bottom: 2.5rem;
+}
+
+.all-projects-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  transition: gap var(--transition);
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+}
+
+.all-projects-back:hover {
+  gap: 0.7rem;
+}
+
+.all-projects-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.filter-btn {
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background-color: var(--color-surface);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+}
+
+.all-projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* Responsive */
+@media (min-width: 640px) {
+  .all-projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .all-projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
