@@ -65,7 +65,7 @@ function Resume({ theme, toggleTheme }) {
               <FaYoutube size={12} /> Jst Kira Tutorials
             </a>
             <a href="https://wa.me/2347018554322" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
-              <FaWhatsapp size={12} /> WhatsApp
+              <FaWhatsapp size={12} /> +234 7018 554 322
             </a>
           </div>
         </div>
