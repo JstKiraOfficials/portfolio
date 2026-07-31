@@ -43,7 +43,7 @@ function Resume({ theme, toggleTheme }) {
         <div className="cv-header">
           <div className="cv-name">Ibrahim Abdulbasit Ayomide</div>
           <div className="cv-title">
-            Full-Stack Developer · Mobile App Engineer · AI/ML Enthusiast
+            Software Engineer
           </div>
           <div className="cv-contact-row">
             <a href="mailto:jstkiraofficials@gmail.com" className="cv-contact-item">
@@ -56,12 +56,12 @@ function Resume({ theme, toggleTheme }) {
               <FiMapPin size={12} /> Kwara State, Nigeria
             </span>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
-              <FiGithub size={12} /> github.com/jstkira
+              <FiGithub size={12} /> github.com/jstkiraofficials
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
-              <FiLinkedin size={12} /> linkedin.com/in/jstkira
+              <FiLinkedin size={12} /> linkedin.com/in/jstkiraofficials
             </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
+            <a href="https://youtube.com/jstkiratutorials" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
               <FaYoutube size={12} /> Jst Kira Tutorials
             </a>
             <a href="https://wa.me/2347018554322" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
