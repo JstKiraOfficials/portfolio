@@ -61,7 +61,7 @@ function Resume({ theme, toggleTheme }) {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
               <FiLinkedin size={12} /> linkedin.com/in/jstkiraofficials
             </a>
-            <a href="https://youtube.com/jstkiratutorials" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
+            <a href="https://www.youtube.com/@jstkiratutorials" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
               <FaYoutube size={12} /> Jst Kira Tutorials
             </a>
             <a href="https://wa.me/2347018554322" target="_blank" rel="noopener noreferrer" className="cv-contact-item">
